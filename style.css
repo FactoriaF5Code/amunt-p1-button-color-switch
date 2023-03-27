@@ -1,0 +1,43 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.seccion {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#recuadro {
+    width: 40%;
+    height: 50%;
+    background-color: white;
+}
+
+#buttons {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.button {
+    height: 40px;
+    width: 60px;
+    border: 1px solid #262525;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20%;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: translateX(2px) translateY(2px);
+}
